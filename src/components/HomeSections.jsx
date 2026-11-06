@@ -63,7 +63,11 @@ export function HomeHero() {
           transition={{ duration: .9, ease: [.22, 1, .36, 1] }}
         >
           <div className="workspace-frame">
-            <img src={imageConfig.heroWorkspace} alt="Creative workspace with a laptop and design tools" fetchPriority="high" />
+            <img
+  src="/images/karan-working.png"
+  alt="Karan Maddeshiya working as a graphic designer"
+  fetchPriority="high"
+/>
             <div className="workspace-vignette" />
             <div className="workspace-label"><span className="live-dot" /> THE CREATIVE SPACE <span>01 / 04</span></div>
             <motion.div className="workspace-orbit orbit-a" animate={reduceMotion ? { rotate: -31 } : { rotate: 360 }} transition={reduceMotion ? { duration: 0 } : { duration: 42, ease: 'linear', repeat: Infinity }} />
