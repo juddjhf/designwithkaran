@@ -1,0 +1,8 @@
+.admin-detail-button{border:1px solid #ffffff27;background:transparent;color:#c8b7df;padding:7px 10px;font-size:9px;cursor:pointer}
+.order-detail-modal{grid-template-columns:1fr;width:min(620px,100%)}
+.order-detail-modal .modal-info{padding:40px}
+.order-detail-modal .modal-info h3{margin:23px 0 8px;font-size:12px;font-weight:600}
+.order-detail-modal .order-requirements{white-space:pre-wrap;background:#111014;padding:13px;border:1px solid var(--line)}
+.order-references{display:grid;gap:8px;font-size:10px}
+.order-references a,.order-detail-modal .modal-info>a{color:#c6a9fa}
+@media(max-width:650px){.order-detail-modal .modal-info{padding:25px}.admin-detail-button{padding:7px}}
